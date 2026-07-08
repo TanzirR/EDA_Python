@@ -1,0 +1,39 @@
+Assignment 2 - Summary Report
+==============================
+
+=== Data Loading ===
+File path: /data/goodreads_books.csv
+Total rows loaded: 11127
+Header: ['bookID', 'title', 'authors', 'average_rating', 'isbn', 'isbn13', 'language_code', '  num_pages', 'ratings_count', 'text_reviews_count', 'publication_date', 'publisher']
+
+=== Data Cleaning ===
+  Invalid values in 'title': 0
+  Invalid values in 'average_rating': 4
+  Invalid values in 'ratings_count': 0
+
+=== Unique Values (Set Analysis) ===
+Column analyzed: sorted_unique_avg_rating
+Number of unique values: 209
+Examples: [0.0, 1.0, 1.67, 2.0, 2.33, 2.4, 2.5, 2.55, 2.61, 2.62, 2.63, 2.67, 2.72, 2.75, 2.77, 2.79, 2.8, 2.81, 2.82, 2.83]
+
+=== Occurrence Counts (Dictionary Analysis) ===
+Column analyzed: average_rating
+Total unique items: 210
+Top values:
+  4.0: 219
+  3.96: 195
+  4.02: 178
+  3.94: 176
+  4.07: 172
+
+=== Numeric Summary ===
+Column analyzed: average_rating
+  count: 11123
+  total: 43758.72
+  min: 0.0
+  max: 5.0
+
+=== Reflection ===
+In this assignment, I used functions to make my code more organized, reusable, and easier to maintain. 
+I used data structures such as lists, sets, dictionaries, and tuples to clean, store, and process data from goodreads_book.csv, with each structure providing different advantages depending on the task. 
+A challenge I faced was handling missing values during data cleaning, which helped me understand the importance of validating data before analysis.
