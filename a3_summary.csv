@@ -1,0 +1,4 @@
+column,type
+title,numeric
+average_rating,numeric
+ratings_count,categorical
