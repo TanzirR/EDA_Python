@@ -2,7 +2,7 @@ Assignment 2 - Summary Report
 ==============================
 
 === Data Loading ===
-File path: /data/goodreads_books.csv
+File path: ./data/goodreads_books.csv
 Total rows loaded: 11127
 Header: ['bookID', 'title', 'authors', 'average_rating', 'isbn', 'isbn13', 'language_code', '  num_pages', 'ratings_count', 'text_reviews_count', 'publication_date', 'publisher']
 
