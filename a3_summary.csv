@@ -1,4 +1,4 @@
-column,type
-title,numeric
-average_rating,numeric
-ratings_count,categorical
+column,type,count,mean,median,std,min,max,missing values,unique values,top 3 most common values with counts
+average_rating,numeric,11123,3.9340753393868564,3.96,0.3504853116512785,0.0,5.0,0,,
+ratings_count,numeric,11123,17942.848062573048,745.0,112499.15347087417,0.0,4597666.0,0,,
+title,categorical,11123,,,,,,0,10348.0,"{'The Iliad': 9, 'The Brothers Karamazov': 9, 'Anna Karenina': 8}"
